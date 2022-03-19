@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Escoge tu pastel!</title>
+    <style>
+
+
+
+               
+         
+
+
+        body { /*Poner imagen de título */ 
+
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+header {
+            background-color: rgb(201, 123, 188);
+            padding: 30px;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(119, 0, 56);
+        }
+
+        th {
+    background-color: #d49ed4;
+    color: rgb(241, 235, 235);
+    text-align: center;
+}
+td{
+    background-color:#e771f7;
+    color: rgb(255, 255, 255);
+}
+        
+        h1 {
+    background-color: #fdb5eb;
+    height: 60px;
+    text-align: center;
+    color: rgb(221, 82, 175);
+    text-size-adjust: 100px ;
+
+}
+h2 {
+
+    text-align: center;
+    color: rgb(102, 9, 97);
+}
+
+h3 {
+     background-color:white;
+    text-align: center;
+}
+
+
+dt { 
+    font-weight: bold;
+    padding-top: 10px;
+    height: 60px;
+    color: rgb(212, 42, 184);
+    text-align: center;
+}
+dl {
+    background-color: #e949c1;
+    text-align: center;
+}
+ol{
+    background-color: #ec60b6;
+    color: white; 
+    text-align: center;
+}
+table{
+    background-color: #eb6be0;
+    text-align: center;
+    tab-size: 30px;
+    block-size: 40px;
+    
+}
+section { 
+    background-color: #ff76ed;
+}
+p {
+    background-color:#fc6af4;
+    background-repeat:inherit;
+    color: white;
+    text-align: center;
+    image-orientation: from-image;
+}
+
+
+        table{
+    background-color: #f1b5e2;
+    text-align: center;
+    tab-size: 30px;
+    block-size: 40px;
+    
+}
+
+
+</style> 
+
+
+
+
+
+
+
+</head>
+<body>
+    <header>
+    <h1>Aquí podrás escoger el sabor y los adornos</h1>
+
+
+    <!-- Tipos de Inputs -->
+    <h2>Datos de contacto</h2>
+
+        <!-- Labels / Etiquetas -->
+<d1> <dd><dt>
+        <label for="Input1"> Escriba aquí su nombre</label>
+        <br> 
+       <!-- Entradas / Inputs -->
+        <input type="text" id="Input1" name="Input1">
+        <br>
+
+    <label for="correo1">Introduzca su correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br>
+    
+
+    <label for="Input1"> Número de celular</label>
+    <br> 
+   <!-- Entradas / Inputs -->
+    <input type="text" id="Input1" name="Input1">
+    <br>
+
+    <label for="psw1">Escriba su dirección con referencias</label><br>
+    <input type="password" id="psw1" name="psw1"><br> 
+    
+    
+    <!-- Labels / Etiquetas -->
+
+    <label for="Input1"> Escriba aquí sus especificaciones</label>
+    <br> 
+   <!-- Entradas / Inputs -->
+    <input type="text" id="Input1" name="Input1">
+
+</dt>
+</dd>
+</d1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</header>
+    <hr>
+<header>
+    <h2>Escoja los adornos</h2>
+    <d1> <dd><dt>
+    <input type="checkbox" id="topping1" name="topping1" value="Listón">
+    <label for="topping1">Listón</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Chispas">
+    <label for="topping2">Chispas</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Brillantina">
+    <label for="topping3">Brillantina</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Figuras">
+    <label for="topping3">Figuras</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Piso extra">
+    <label for="topping3">Piso extra</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Velas">
+    <label for="topping3">Velas</label><br><br>
+    <label for="numero1">Introduzca cantidad</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <h2>Escoja el sabor</h2>
+    <input type="radio" id="Rompope" name="pasteles" value="Rompope">
+    <label for="Rompope">Rompope</label><br>
+    <input type="radio" id="Mocha" name="pasteles" value="Mocha">
+    <label for="Mocha">Mocha</label><br>
+    <input type="radio" id="Tres leches" name="pasteles" value="Tres leches">
+    <label for="Tres leches">Tres leches</label><br>
+    <input type="radio" id="Triple chocolate" name="pasteles" value="Triple chocolate">
+    <label for="Triple chocolate">Triple chocolate</label><br>
+    <input type="radio" id="Cheesecake" name="pasteles" value="Cheseecake">
+    <label for="Cheseecake">Cheesecake</label><br>
+    <input type="radio" id="Pay de limón" name="pasteles" value="Pay de limón">
+    <label for="Pay de limón">Pay de limón</label><br>
+
+    <h2>Cantidad de cortes</h2>
+    <label for="Rebanadas">Número de rebanadas</label>
+    <select id="Rebanadas" name="Rebanadas">
+        <option value="8">8</option>
+        <option value="12">12</option>
+        <option value="16">16</option>
+    </select>
+    
+</dt>
+</dd>
+</d1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</header>
+
+    <hr>
+    <header>
+    <d1> <dd><dt>
+    
+    <h2>Fecha de confirmación de pedido</h2>
+    <input type="date" id="fecha1" name="fecha1"><br>
+
+    <h2>Fecha estimada para entrega</h2>
+
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+</dt>
+</dd>
+</d1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</header> 
+    <hr>
+    <header>
+    <h2>Si lo desea puede adjuntar una imagen de referencia para el adorno</h2>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    
+    <h2>Color base </h2>
+    <input type="color" id="color1" name="color1"><br><br>
+    
+
+
+    <!-- Formularios -->
+    <h2>Nombre del destinatario</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    
+    <nav>
+        <ul>
+            <li><a href="Pastel.html">Página principal</a> </li>
+            <li> <a href="Pastel1.html">Menú</a> </li>
+ 
+
+        </ul>
+    </nav>
+
+<br>
+</header>
+    
+</body>
+</html>
